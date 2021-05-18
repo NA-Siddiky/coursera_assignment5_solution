@@ -186,7 +186,6 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
       false);
   }
 
-
   // Using categories data and snippets html
   // build categories view HTML to be inserted into page
   function buildCategoriesViewHtml(categories,
@@ -214,8 +213,6 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
     finalHtml += "</section>";
     return finalHtml;
   }
-
-
 
   // Builds HTML for the single category page based on the data
   // from the server
